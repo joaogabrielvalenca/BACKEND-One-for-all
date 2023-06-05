@@ -60,10 +60,12 @@ A medida que for concluindo os requisitos vá marcando aqui qual requisito você
 - [ ] 7. Exibe uma relação de todos os álbuns produzidos por cada artista
 - [ ] 8. Exibe uma relação de álbuns produzidos pelo artista Elis Regina
 - [ ] 9. Exibe a quantidade de músicas que estão presentes atualmente no histórico de reprodução da pessoa usuária Barbara Liskov
-- [ ] 10. Exibe o nome e a quantidade de vezes que cada canção foi tocada por pessoas usuárias do plano gratuito ou pessoal
 
 ## Requisitos bônus
 
-- [ ] 11. Exibe nomes de musicas em sua forma normal e com string trocada
+- [ ] 10. Normalize a tabela da planilha SpotifyClone-fav-songs, após a normalização, crie a tabela no banco de dados
+- [ ] 11. Exibe o top 3 de álbuns com as músicas que mais foram favoritadas
+- [ ] 12. Exibe um ranking de artistas baseado na quantidade de favoritadas em suas músicas
+- [ ] 13. Exibe uma relação da quantidade total de pessoas usuárias e favoritadas por faixa etária
 
 Desejamos um bom projeto para todas as pessoas estudantes e que seja fonte de muito aprendizado. ✌️
