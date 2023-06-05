@@ -29,6 +29,15 @@ Neste projeto você irá:
 - [ ] [Descomplicando JOINs](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/94d0e996-1827-4fbc-bc24-c99fb592925b/section/a10ee6b2-77b9-493f-ab76-a8f9822c5608/day/783f9e5d-06b1-485e-9268-7df42aa26324/lesson/a2e57822-822a-45ab-a5ce-2d64c417de76)
 - [ ] [Transformando ideias em um modelo de banco de dados](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/94d0e996-1827-4fbc-bc24-c99fb592925b/section/a10ee6b2-77b9-493f-ab76-a8f9822c5608/day/c04b45a4-0412-45ee-b2a9-de3d923a4ded/lesson/7f07a687-f50b-42e9-bab4-1bde21ad9207)
 
+### Materiais auxiliares
+
+- [ ] [Mentoria estruturada Trybe City](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/live-lectures/1ad46538-81ac-40b9-8a16-1fa50743c6cf/recording/23c24539-f430-48f6-aae3-78dbd0b61e49)
+
+### Dicas da Turma / Instrução (Em constante atualização)
+- [ ] [Mapa Mental - Diferenças entre INNER JOIN, LEFT JOIN E RIGHT JOIN por Thalles Carneiro](https://trybecourse.slack.com/archives/C058J4TCCSG/p1685728701033699)
+- [ ] [Teoria de conjuntos e mySQL por Lívio Lopes](https://trybecourse.slack.com/archives/C058J4TCCSG/p1685741130852519)
+
+
 ### Conteúdos de Soft Skills
 
 - [ ] [Criação - Barreiras à Criatividade](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/2e0692c9-e226-4e95-860a-b4cad80e3c3c/section/095ce2ea-142a-4408-9fb4-70f93a234914/day/e1317f33-1b4a-4ae8-8e61-b808909f74ed/lesson/de42f0bb-d297-4cd8-ade9-0e7262f6c341)
