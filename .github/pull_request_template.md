@@ -40,8 +40,8 @@ Neste projeto você irá:
 
 ### Conteúdos de Soft Skills
 
-- [ ] [Criação - Barreiras à Criatividade](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/2e0692c9-e226-4e95-860a-b4cad80e3c3c/section/095ce2ea-142a-4408-9fb4-70f93a234914/day/e1317f33-1b4a-4ae8-8e61-b808909f74ed/lesson/de42f0bb-d297-4cd8-ade9-0e7262f6c341)
-- [ ] [Colaboração mediada por tecnologias](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/2e0692c9-e226-4e95-860a-b4cad80e3c3c/section/095ce2ea-142a-4408-9fb4-70f93a234914/day/5a1416e5-a620-422c-a10b-1371aee196c3/lesson/7aa9dea9-2a25-4e4f-8598-8fe02ce599f4)
+- [ ] Já pensou sobre como você gerencia suas tarefas em cada projeto? Uma dica valiosa para a eficácia na gestão e mapeamento de problemas é o pensamento visual. Aprenda a criar seus próprios mapas mentais com [este conteúdo](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/2e0692c9-e226-4e95-860a-b4cad80e3c3c/section/095ce2ea-142a-4408-9fb4-70f93a234914/day/e1317f33-1b4a-4ae8-8e61-b808909f74ed/lesson/e64c7b8f-be53-453e-bdb5-c400d9f66f74) e otimize sua organização.
+- [ ] Já reservou um tempinho da sua semana para pensar em soft skills e carreira? Que tal ler [este artigo](https://forbes.com.br/carreira/2023/05/5-passos-para-construir-e-aperfeicoar-seu-elevator-pitch/?utm_campaign=AP_Newsletter&utm_medium=email&_hsmi=261064564&_hsenc=p2ANqtz-_YmF_g7wNSS9-gRcNaAQzu4vw3Vut74ZdskdqMrK7W3PmKnAk4dm2gtsGUzSgew7OgowK4X_iYDXpVZmwv8s3AJYBtPQ&utm_content=261064564&utm_source=hs_email#foto1) da Forbes, divulgado na última edição do Trybe News, sobre dicas para aperfeiçoar sua apresentação pessoal?
 
 ## Requisitos obrigatórios do Projeto
 
