@@ -32,6 +32,7 @@ Neste projeto você irá:
 ### Materiais auxiliares
 
 - [ ] [Mentoria estruturada Trybe City](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/live-lectures/1ad46538-81ac-40b9-8a16-1fa50743c6cf/recording/23c24539-f430-48f6-aae3-78dbd0b61e49)
+- [ ] [Mentoria Boteco do seu Zé](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/live-lectures/1ad46538-81ac-40b9-8a16-1fa50743c6cf/recording/58a54895-ac8c-4683-a1b9-b316a405ed9d)
 
 ### Dicas da Turma / Instrução (Em constante atualização)
 - [ ] [Mapa Mental - Diferenças entre INNER JOIN, LEFT JOIN E RIGHT JOIN por Thalles Carneiro](https://trybecourse.slack.com/archives/C058J4TCCSG/p1685728701033699)
