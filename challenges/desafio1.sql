@@ -22,35 +22,33 @@
 --   ('exemplo de dados 1', 'exemplo de dados X'),
 --   ('exemplo de dados 2', 'exemplo de dados Y');
 
-
+DROP DATABASE IF EXISTS SpotifyClone;
 CREATE DATABASE IF NOT EXISTS SpotifyClone;
 
-USE SpotifyClone;
-
-CREATE TABLE Album(
-	id_album INT PRIMARY KEY AUTO_INCREMENT,
+CREATE TABLE SpotifyClone.Album(
+  	id_album INT PRIMARY KEY AUTO_INCREMENT,
     nome_album VARCHAR(45) NOT NULL,
     artista VARCHAR(45) NOT NULL,
     cancoes VARCHAR(128) NOT NULL,
     duracao_cancoes VARCHAR(45),
     ano_lancamento INT
-);
+) engine = InnoDB;
 
-CREATE TABLE Pessoa(
-	id_pessoa INT PRIMARY KEY AUTO_INCREMENT,
+CREATE TABLE SpotifyClone.Pessoa(
+	  id_pessoa INT PRIMARY KEY AUTO_INCREMENT,
     nome_pessoa VARCHAR(100) NOT NULL,
     idade_pessoa INT NOT NULL
-);
+) engine = InnoDB;
 
-CREATE TABLE Assinatura (
+CREATE TABLE SpotifyClone.Assinatura (
     id_pessoa INT PRIMARY KEY NOT NULL,
     plano_assinatura VARCHAR(45),
     data_assinatura DATE,
     valor_assinatura VARCHAR(45),
     FOREIGN KEY (id_pessoa) REFERENCES Pessoa (id_pessoa)
-);
+) engine = InnoDB;
 
-CREATE TABLE Reproducao (
+CREATE TABLE SpotifyClone.Reproducao (
     id_pessoa INT NOT NULL,
     id_album INT NOT NULL,
     historico_reproducao VARCHAR(200) NOT NULL,
@@ -59,9 +57,9 @@ CREATE TABLE Reproducao (
     PRIMARY KEY (id_pessoa, id_album),
     FOREIGN KEY (id_pessoa) REFERENCES Pessoa (id_pessoa),
     FOREIGN KEY (id_album) REFERENCES Album (id_album)
-);
+) engine = InnoDB;
 
-INSERT INTO Pessoa (nome_pessoa, idade_pessoa)
+INSERT INTO SpotifyClone.Pessoa (nome_pessoa, idade_pessoa)
 VALUES
   ('Barbara Liskov', 82),
   ('Robert Cecil Martin', 58),
@@ -74,7 +72,7 @@ VALUES
   ('Judith Butler', 45),
   ('Jorge Amado', 58);
   
-INSERT INTO Album (nome_album, artista, cancoes, duracao_cancoes, ano_lancamento)
+INSERT INTO SpotifyClone.Album (nome_album, artista, cancoes, duracao_cancoes, ano_lancamento)
 VALUES 
 	('Renaissance', 'Beyoncé', 'Break my Soul' "Virgo's Groove" 'Alien Superstar', '279, 369, 116', 2022),
     ('Jazz', 'Queen',  "Don't Stop Me Now", '203', 1978),
@@ -85,7 +83,7 @@ VALUES
     ('Somewhere Far Beyond', 'Blind Guardian', "The Bard's Song", '244', 2007),
     ('I Put A Spell On You', 'Nina Simone', 'Feeling Good', '100', 2012);
     
-INSERT INTO Assinatura (plano_assinatura, data_assinatura, valor_assinatura)
+INSERT INTO SpotifyClone.Assinatura (plano_assinatura, data_assinatura, valor_assinatura)
 VALUES
 	('gratuito', '2019-10-20', '0'),
 	('gratuito', '2017-01-06', '0'),
@@ -98,7 +96,7 @@ VALUES
 	('pessoal', '2020-05-13', '6,99'),
 	('pessoal', '2017-02-17', '6,99');
 
-INSERT INTO Reproducao (historico_reproducao, data_reproducao, artistas_seguindo)
+INSERT INTO SpotifyClone.Reproducao (historico_reproducao, data_reproducao, artistas_seguindo)
 VALUES
 	("Samba em Paris" "VIRGO'S GROOVE" "Feeling Good", "2022-02-28 10:45:55" "2020-05-02 05:30:35" "2020-03-06 11:22:33", 'Beyoncé' 'Queen' 'Elis Regina'),    
 	("Feeling Good" "O Medo de Amar é o Medo de Ser Livre", "2022-08-05 08:05:17" "2020-01-02 07:40:33", 'Beyoncé' 'Elis Regina'),
