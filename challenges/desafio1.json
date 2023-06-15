@@ -5,12 +5,12 @@
   "coluna_plano": "plano_assinatura",
   "tabela_historico_de_reproducoes": "Reproducao",
   "coluna_historico_de_reproducoes": "historico_reproducao",
-  "tabela_seguindo_artistas": "Reproducao",
+  "tabela_seguindo_artistas": "Seguindo",
   "coluna_seguindo_artistas": "artistas_seguindo",
-  "tabela_artista": "Album",
+  "tabela_artista": "Artista",
   "coluna_artista": "artista",
   "tabela_album": "Album",
   "coluna_album": "nome_album",
-  "tabela_cancoes": "Album",
-  "coluna_cancoes": "cancoes"
+  "tabela_cancoes": "Cancoes",
+  "coluna_cancoes": "cancao"
 }
