@@ -1,13 +1,10 @@
 SELECT
-  p.nome_pessoa AS pessoa_usuaria,
-  CASE
-    WHEN MAX(r.data_reproducao) >= '2021-01-01' THEN 'Ativa'
-    ELSE 'Inativa'
-  END AS status_pessoa_usuaria
+  P.nome_pessoa AS pessoa_usuaria,
+  CASE WHEN MAX(R.data_reproducao) >= '2021-01-01' THEN 'Ativa' ELSE 'Inativa' END AS status_pessoa_usuaria
 FROM
-  SpotifyClone.Pessoa p
-  JOIN SpotifyClone.Reproducao r ON p.id_pessoa = r.id_pessoa
+  SpotifyClone.Pessoa P
+  LEFT JOIN SpotifyClone.Reproducao R ON P.id_pessoa = R.id_pessoa
 GROUP BY
-  p.nome_pessoa
+  P.id_pessoa, P.nome_pessoa
 ORDER BY
-  p.nome_pessoa ASC;
+  P.nome_pessoa ASC;

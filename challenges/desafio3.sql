@@ -1,13 +1,12 @@
-
 SELECT
-  p.nome_pessoa AS pessoa_usuaria,
-  COUNT(r.historico_reproducao) AS musicas_ouvidas,
-  ROUND(SUM(c.duracao_cancoes) / 60, 2) AS total_minutos
+  P.nome_pessoa AS pessoa_usuaria,
+  COUNT(R.id_cancao) AS musicas_ouvidas,
+  ROUND(SUM(C.duracao_cancoes) / 60, 2) AS total_minutos
 FROM
-  SpotifyClone.Pessoa p
-  JOIN SpotifyClone.Reproducao r ON p.id_pessoa = r.id_pessoa
-  JOIN SpotifyClone.Cancoes c ON r.historico_reproducao = c.cancao
+  SpotifyClone.Pessoa P
+  JOIN SpotifyClone.Reproducao R ON P.id_pessoa = R.id_pessoa
+  JOIN SpotifyClone.Cancoes C ON R.id_cancao = C.id_cancao
 GROUP BY
-  p.nome_pessoa
+  P.nome_pessoa
 ORDER BY
-  p.nome_pessoa ASC;
+  P.nome_pessoa ASC;

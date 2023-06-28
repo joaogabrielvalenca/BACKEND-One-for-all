@@ -1,9 +1,11 @@
 SELECT
-    'Elis Regina' AS artista,
-    album.nome_album AS album
+  'Elis Regina' AS artista,
+  nome_album AS album
 FROM
-    SpotifyClone.Album album
+  SpotifyClone.Album
 WHERE
-    album.artista = 'Elis Regina'
+  id_artista = (
+    SELECT id_artista FROM SpotifyClone.Artista WHERE artista = 'Elis Regina'
+  )
 ORDER BY
-    album.nome_album ASC;
+  album ASC;

@@ -1,10 +1,11 @@
 SELECT
-  historico_reproducao AS cancao,
-  COUNT(DISTINCT id_pessoa) AS reproducoes
+  C.cancao,
+  COUNT(*) AS reproducoes
 FROM
-  SpotifyClone.Reproducao
+  SpotifyClone.Cancoes C
+  INNER JOIN SpotifyClone.Reproducao R ON C.id_cancao = R.id_cancao
 GROUP BY
-  historico_reproducao
+  C.id_cancao, C.cancao
 ORDER BY
-  reproducoes DESC, cancao ASC
+  reproducoes DESC, C.cancao ASC
 LIMIT 2;
